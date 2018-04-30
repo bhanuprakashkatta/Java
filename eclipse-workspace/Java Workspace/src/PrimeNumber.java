@@ -18,6 +18,8 @@ public class PrimeNumber {
             }
         }
         return true;
+        
+       //Returning True
     }}
      
     public static void main(String a[]){
