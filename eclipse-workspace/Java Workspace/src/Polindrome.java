@@ -4,7 +4,7 @@ public class Polindrome {
 		// TODO Auto-generated constructor stub
 	}
 
-	static	String name="borrow or rob";
+	static	String name="borrow or Rob";
 	static String original="";
 	static String reverse="";
 	
@@ -16,7 +16,7 @@ public class Polindrome {
 		reverseChangingMethod(name);
 		
 		
-		if (original.equals(reverse)) {
+		if (original.equalsIgnoreCase(reverse)) {
 			System.out.println("--Entered string is polindrome--");
 		}
 		else

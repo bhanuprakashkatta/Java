@@ -15,9 +15,10 @@ public class FibonacciSeries {
 
 	private static void  fibonacciMethod() {
 		// TODO Auto-generated method stub
-		for(int i=1;i<10;i++)
+		
+		for(int i=2;i<=10;i++)
 		{
-			int number3=number1+number2;
+				int number3=number1+number2;
 			System.out.println(number3);
 			number1=number2;
 			number2=number3;
