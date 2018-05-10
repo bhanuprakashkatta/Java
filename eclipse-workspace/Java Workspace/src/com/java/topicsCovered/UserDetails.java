@@ -8,20 +8,18 @@ public class UserDetails {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SellerWebsite sw=new SellerWebsite();
-		Customer cs= null;
-		cs=new Customer();
-		cs=sw.loginDetails(10,"bhanu","frisco",false);
-		
-		String name=cs.getName();
-		boolean status=cs.isStatus();
+		SellerWebsite sw = new SellerWebsite();
+		Customer cs = null;
+		cs = new Customer();
+		cs = sw.loginDetails(10, "bhanu", "frisco", false);
+
+		String name = cs.getName();
+		boolean status = cs.isStatus();
 		if (status)
-		System.out.println("Username "+name+" is in active");
+			System.out.println("Username " + name + " is in active");
 		else
-			System.out.println("Username "+name+" is not in active ");
-		
-		
-		
-				}
+			System.out.println("Username " + name + " is not in active ");
+
+	}
 
 }

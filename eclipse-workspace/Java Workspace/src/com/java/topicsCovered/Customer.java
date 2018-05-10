@@ -10,9 +10,11 @@ public class Customer {
 	private String name;
 	private String address;
 	private boolean status;
+
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -32,16 +34,13 @@ public class Customer {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+
 	public boolean isStatus() {
 		return status;
 	}
+
 	public void setStatus(boolean status) {
 		this.status = status;
 	}
-
-	
-
-	
-
 
 }
