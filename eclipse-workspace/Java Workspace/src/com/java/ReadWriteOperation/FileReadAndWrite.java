@@ -1,4 +1,4 @@
-package com.java.ReadWriteOperation;
+  package com.java.ReadWriteOperation;
 
 import java.io.File;
 import java.io.FileReader;
@@ -13,17 +13,17 @@ public class FileReadAndWrite {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File f=new File("C:\\Users\\bhanu\\Downloads\\Softwares\\Text.txt");
-		char[] ch=null;
-			try {
-				FileReader fr=new FileReader(f);
-				 ch= new char[((int)f.length())/2];
-				fr.read(ch);
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		File f1=new File("C:\\Users\\bhanu\\Downloads\\Softwares\\read.txt");
+		File f = new File("C:\\Users\\bhanu\\Downloads\\Softwares\\Text.txt");
+		char[] ch = null;
+		try {
+			FileReader fr = new FileReader(f);
+			ch = new char[((int) f.length()) / 2];
+			fr.read(ch);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		File f1 = new File("C:\\Users\\bhanu\\Downloads\\Softwares\\read.txt");
 		FileWriter fw;
 		try {
 			fw = new FileWriter(f1);
@@ -34,9 +34,7 @@ public class FileReadAndWrite {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-	
+
 	}
 
 }
